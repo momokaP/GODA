@@ -331,15 +331,13 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
        따라서 MID/MIDI 파일 편집기로 자연스럽게 편집 하는 예시를 보여드리겠습니다
 
-       <video  src="./video/음이어붙이기.mp4"  controls> 대체텍스트 </video>
+       https://github.com/momokaP/MODA/assets/144106144/94e1552d-4a6b-4e1c-8dde-05393cfc5ccc
 
-       
 
        수정된 결과 들어보기 
 
-       <video  src="./video/수정된결과듣기.mp4"  controls> 대체텍스트 </video>
+       https://github.com/momokaP/MODA/assets/144106144/267bc73f-fdbe-4cad-8087-78edd62d578f
 
-       
 
   * 음원분리하기
 
@@ -371,7 +369,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
 
-       <video  src="./video/음원분리과정.mp4"  controls> 대체텍스트 </video>
+       https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
 
     3.  결과를 들어봅시다
 
@@ -479,15 +477,19 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 
 1.  'SE_01_03_신나는 펑키 아웃트로' guitar를 mid/midi로 변환합니다
 
-   <video  src="./video/응용1.mp4"  controls> 대체텍스트 </video>
+   https://github.com/momokaP/MODA/assets/144106144/261bd76a-7e41-4e3b-8be0-bab87164f3b0
 
 2. 튀는 음들을 없애서 자연스럽게 수정합니다
 
-   <video  src="./video/응용2.mp4"  controls> 대체텍스트 </video>
+   https://github.com/momokaP/MODA/assets/144106144/8d47ba9b-89cd-4186-ac77-16920707962a
 
 3. 결과 듣기
 
-   <video  src="./video/응용3.mp4"  controls> 대체텍스트 </video>
+   https://github.com/momokaP/MODA/assets/144106144/3a13e7d9-1084-4c88-8f47-5a43d5a1771a
+
+
+
+
 
    
 
