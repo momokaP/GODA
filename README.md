@@ -375,95 +375,95 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
        
 
-       'SE_01_03_신나는 펑키 아웃트로'
+        'SE_01_03_신나는 펑키 아웃트로'
 
-       bass
+        bass
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/bass.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       drums
+        drums
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/drums.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       guitar
+        guitar
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/guitar.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       other
+        other
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/other.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       piano
+        piano
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/piano.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       vocals
+        vocals
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/vocals.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
     ​    
 
-       'YEAH'
+        'YEAH'
 
-       bass
+        bass
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/bass2.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       drums
+        drums
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/drums2.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       guitar
+        guitar
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/guitar2.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       other
+        other
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/other2.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       piano
+        piano
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/piano2.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
-       vocals
+        vocals
 
-       <audio controls>
+        <audio controls>
                <source src="./audio/vocals2.mp3" type="audio/mpeg">
                대체텍스트
-       </audio>
+        </audio>
 
 ### 응용
 
