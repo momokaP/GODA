@@ -226,7 +226,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
 * MID/MIDI 파일 재생하기
   
-  <video  src="./video/MID_MIDI 파일 편집기 재생.mp4"  controls> 대체텍스트 </video>
+  https://github.com/momokaP/MODA/assets/144106144/3c36de8d-668e-4885-9964-39c504947a84
   
   음질이 좋진 않지만 
   
