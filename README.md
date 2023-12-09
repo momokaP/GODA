@@ -375,6 +375,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
     4.  SE_01_03_신나는 펑키 아웃트로
 
         bass
+        
         https://github.com/momokaP/MODA/assets/144106144/25430136-f28d-49cd-8c31-c347ef15b2fd
 
         drums
