@@ -117,8 +117,8 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 이 프로그램은 sys, PyQt5, demucs, basic_pitch 라이브러리를 사용합니다
 
-version : Python (3.11.2), PyQt5 (5.15.10), 
-
+version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
+ 
 이 프로그램은 실행 파일로 만들면 용량도 크고 ( 2.5GB 정도 ) 충돌도 많이 있기 때문에
 
  라이브러리를 설치하고 extract_convert.py을 다운 받아서 실행해주시기 바랍니다
@@ -448,14 +448,16 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
    https://github.com/momokaP/MODA/assets/144106144/3a13e7d9-1084-4c88-8f47-5a43d5a1771a
 
 
+# 라이센스
 
-
-
-   
-
-   
-
-   
-
+사용한 라이브러리들
+sys
+PyQt5
+demucs   
+basic_pitch
+pretty_midi   
+sounddevice
+numpy   
+threading
    
 
