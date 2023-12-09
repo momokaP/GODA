@@ -68,7 +68,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
   <p align="center">
   <img src="./img/실행파일 실행3.png" alt="gimg" width="50%" />
   </p>
-
+  
   
 
 ##### 2 실행파일의 바이러스를 의심해서 라이브러리 설치하고 midi_editor.py다운 받아서 실행하기
@@ -160,4 +160,343 @@ version : Python (3.11.2), PyQt5 (5.15.10),
   <p align="center">
   <img src="./img/라이브러리부터 설치 예제2_2.png" alt="gimg" width="50%" />
   </p>
+
+
+
+# 상세 기능
+
+### MID/MIDI 파일 편집기로 MID파일 편집하기
+
+
+
+먼저 [MIDI는 무엇인가?](https://ko.wikipedia.org/wiki/MIDI) 
+
+간단히 말자하면 음악 및 음악 장치 간에 정보를 전송하기 위한 규약이며, MID/MIDI 파일은 실제 음악 소리 자체를 저장하는 것이 아니라, 음악을 생성하는 데 필요한 정보를 담고 있는 파일 형식입니다
+
+
+
+MID/MIDI 파일 듣거나 다운받는 사이트  ->  [https://bitmidi.com/](https://bitmidi.com/)
+
+
+
+MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
+
+' Wii Channels - Mii Channel.mid ' 파일로 사용방법을 알려드리겠습니다
+
+파일 링크 : [https://bitmidi.com/wii-channels-mii-channel-mid](https://bitmidi.com/wii-channels-mii-channel-mid)
+
+
+
+* MID/MIDI파일 시각화
+
+  1. Load and Visualize MIDI 버튼 누르기
+
+     <p align="center">
+     <img src="./img/me1.png" alt="gimg" width="50%" />
+     </p>
+
+  2.  파일 선택 후 열기 버튼 누르기
+
+     <p align="center">
+     <img src="./img/me2.png" alt="gimg" width="50%" />
+     </p>
+
+  3. MIDI 파일 표시       
+
+     <p align="center">
+     <img src="./img/me3.png" alt="gimg" width="50%" />
+     </p>
+
+     이제 MID/MIDI 파일을 시각화한 결과를 볼 수 있습니다
+
+     노란색으로 표시된 부분은 음(노트)이 위치한 곳이고 
+
+     x축 방향으로는 시간길이, y축 방향으로는 음(노트)의 종류를 나타냅니다
+
+     맨 왼쪽에는 음(노트)이 어떤 음(노트)인지 알려줍니다 
+
+     1초 간격마다 검은색 세로선이 있습니다
+     
+     마우스를 움직이면 빨간색 네모로 표시한 곳 안에
+     
+     현재 마우스가 어느 시간에 있는지, 어느 음(노트)에 있는지 알려줍니다
+     
+     
+
+
+* MID/MIDI 파일 재생하기
+  
+  <video  src="./video/MID_MIDI 파일 편집기 재생.mp4"  controls> 대체텍스트 </video>
+  
+  음질이 좋진 않지만 
+  
+  Play버튼을 눌러서 MID/MIDI 파일 재생이 가능합니다. 멈추려면 Stop버튼을 누릅니다.
+  
+  Play버튼을 누르면 검은 수직선이 시간에 따라서 움직이고 가로 스크롤도 따라서 움직입니다
+  
+  가로 스크롤을 만졌다면 수직선에 따라서 움직이는 것을 멈춥니다
+  
+  ( 가로 창 크기조절을 하면 수직선이 느려집니다 )
+  
+  
+
+
+* MID/MIDI 파일 편집, 저장
+
+  
+
+  1. 음(노트) 지우기
+
+     Modify 버튼을 누르고 Start Time과 End Time, start Note와 end Note 입력한 뒤
+
+     Volume을 0으로 하고 Modify! 버튼을 누르면 음(노트)가 삭제 됩니다
+
+     표시된 음(노트)을 클릭하면 자동으로 Time, Note가 입력됩니다
+
+     <video  src="./video/지우기.mp4"  controls> 대체텍스트 </video>
+
+     
+
+  2. 음(노트) 수정하기
+
+     Modify 버튼을 누르고 Start Time과 End Time, start Note와 end Note 입력한 뒤
+
+     Volume을 0이 아닌 값으로 하고 Modify! 버튼을 누르면 음(노트)이 변경, 추가 됩니다
+
+     <video  src="./video/수정하기.mp4"  controls> 대체텍스트 </video>
+
+     
+
+  3. 결과 듣기
+
+     <video  src="./video/편집결과.mp4"  controls> 대체텍스트 </video>
+
+     
+
+  4. 저장하기
+
+     Convert 버튼을 누르고 저장할 폴더와 저장할 파일명를 입력한뒤 저장 버튼을 누릅니다
+
+     <video  src="./video/저장하기.mp4"  controls> 대체텍스트 </video>
+
+     
+
+* 피아노
+
+  Piano 버튼을 누르면 피아노 건반이 나옵니다
+
+  각 음(노트)에 해당하는 버튼을 누르면 소리가 나오고 옥타브를 변환할 수 있습니다
+
+  MID/MIDI파일을 수정 하면서 이게 어떤 음(노트)인지 듣고 싶을 때 쓰면 유용할겁니다
+
+  <video  src="./video/피아노.mp4"  controls> 대체텍스트 </video>
+
+  
+
+### 음원분리와 mid로 변환으로 음악파일의 음원을 분리하고 mid 파일로 변환하기
+
+  * mid/midi 파일로 변환하기
+
+    
+
+    mid/midi파일로 변환하는데 사용하는 라이브러리인 basic-pitch는 
+
+    단일 악기나 목소리가 있는 음악 파일을 변환해야 결과가 잘 나옵니다
+
+    여러 악기가 함께 연주하거나 여러 목소리가 있는 음악 파일을 변환하면 음이 여기저기에 있게 될 겁니다
+
+    
+
+    1. ' mp3 파일을 midi파일로 변환 ' 탭을 누릅니다
+
+       <p align="center">
+       <img src="./img/변환.png" alt="gimg" width="50%" />
+       </p>
+       
+
+    2. midi로 변환할 파일과 파일을 저장할 폴더를 선택 한뒤 midi로 변환 버튼을 누릅니다
+
+       여기서 예제로 'SE_07_16_아코디언 시골길 밝은 효과음' 을 사용합니다
+
+       SE_07_16_아코디언 시골길 밝은 효과음 / CC BY 라이선스  
+
+       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355408&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355408&menuNo=200020)
+
+       <video  src="./video/변환.mp4"  controls> 대체텍스트 </video>
+
+       
+
+    3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
+
+       나름 음을 잘 나타내지만 완벽하게 mid/midi 파일로 변환하진 못합니다 
+
+       위의 예시를 봐도 길게 연주되어야 하는 음이 여러번 나눠져서 연주됩니다
+
+       따라서 MID/MIDI 파일 편집기로 자연스럽게 편집 하는 예시를 보여드리겠습니다
+
+       <video  src="./video/음이어붙이기.mp4"  controls> 대체텍스트 </video>
+
+       
+
+       수정된 결과 들어보기 
+
+       <video  src="./video/수정된결과듣기.mp4"  controls> 대체텍스트 </video>
+
+       
+
+  * 음원분리하기
+
+    1.  음원 분리 탭을 누릅니다
+
+       <p align="center">
+       <img src="./img/me13.png" alt="gimg" width="50%" />
+       </p>
+
+    2.  음원 분리할 파일과 음원 분리할 파일을 저장할 폴더를 선택하고 음원분리 버튼을 누릅니다
+
+       
+
+       음원을 분리하면 htdemucs_6s라는 폴더가 생성되고 
+
+       그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
+
+       그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
+
+       
+
+       여기서 예제로 'YEAH', 'SE_01_03_신나는 펑키 아웃트로' 를 사용합니다
+
+       YEAH / 기증저작물-자유이용 / 저작자명 : 김재영
+
+       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020)
+
+       SE_01_03_신나는 펑키 아웃트로 /  CC BY 라이선스
+
+       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
+
+       <video  src="./video/음원분리과정.mp4"  controls> 대체텍스트 </video>
+
+    3.  결과를 들어봅시다
+
+       
+
+       'SE_01_03_신나는 펑키 아웃트로'
+
+       bass
+
+       <audio controls>
+               <source src="./audio/bass.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       drums
+
+       <audio controls>
+               <source src="./audio/drums.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       guitar
+
+       <audio controls>
+               <source src="./audio/guitar.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       other
+
+       <audio controls>
+               <source src="./audio/other.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       piano
+
+       <audio controls>
+               <source src="./audio/piano.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       vocals
+
+       <audio controls>
+               <source src="./audio/vocals.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+    ​    
+
+       'YEAH'
+
+       bass
+
+       <audio controls>
+               <source src="./audio/bass2.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       drums
+
+       <audio controls>
+               <source src="./audio/drums2.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       guitar
+
+       <audio controls>
+               <source src="./audio/guitar2.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       other
+
+       <audio controls>
+               <source src="./audio/other2.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       piano
+
+       <audio controls>
+               <source src="./audio/piano2.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+       vocals
+
+       <audio controls>
+               <source src="./audio/vocals2.mp3" type="audio/mpeg">
+               대체텍스트
+       </audio>
+
+### 응용
+
+이제 mid/midi파일을 편집할 수 있고, mid파일로 변환할 수 있고, 음원을 분리할 수 있습니다
+
+그러면  'SE_01_03_신나는 펑키 아웃트로'의 음원을 분리해서 나온 
+
+guitar의 음이 어떻게 이루어져 있는지 알아봅시다
+
+
+
+1.  'SE_01_03_신나는 펑키 아웃트로' guitar를 mid/midi로 변환합니다
+
+   <video  src="./video/응용1.mp4"  controls> 대체텍스트 </video>
+
+2. 튀는 음들을 없애서 자연스럽게 수정합니다
+
+   <video  src="./video/응용2.mp4"  controls> 대체텍스트 </video>
+
+3. 결과 듣기
+
+   <video  src="./video/응용3.mp4"  controls> 대체텍스트 </video>
+
+   
+
+   
+
+   
+
+   
 
