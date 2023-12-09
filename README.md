@@ -372,93 +372,58 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
         https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
 
     3.  결과를 들어봅시다
-    4.  SE_01_03_신나는 펑키 아웃트로
+        ##### SE_01_03_신나는 펑키 아웃트로
 
         bass
         
         https://github.com/momokaP/MODA/assets/144106144/25430136-f28d-49cd-8c31-c347ef15b2fd
 
         drums
-
-        <audio controls>
-               <source src="./audio/drums.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
+   
+        https://github.com/momokaP/MODA/assets/144106144/0ba48bfc-8741-4294-95c2-255f59660830
+        
         guitar
-
-        <audio controls>
-               <source src="./audio/guitar.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
+   
+        https://github.com/momokaP/MODA/assets/144106144/6bafe92e-ba58-48be-9c6f-a170475f2e12
 
         other
-
-        <audio controls>
-               <source src="./audio/other.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
+   
+        https://github.com/momokaP/MODA/assets/144106144/ca3e8ff8-af45-42d8-9b97-004da9349cb7
+   
         piano
-
-        <audio controls>
-               <source src="./audio/piano.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
+   
+        https://github.com/momokaP/MODA/assets/144106144/ab6a45bb-8458-49e1-aacd-809524d356d2
 
         vocals
+   
+        https://github.com/momokaP/MODA/assets/144106144/2d8f58e4-d885-4ee4-8754-52305d6fb5fa
 
-        <audio controls>
-               <source src="./audio/vocals.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
-        YEAH
+        ##### YEAH
 
         bass
-
-        <audio controls>
-               <source src="./audio/bass2.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
+   
+        https://github.com/momokaP/MODA/assets/144106144/1df4d65d-a558-4fb2-b199-2749e7655bfc
+   
         drums
-
-        <audio controls>
-               <source src="./audio/drums2.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
+   
+        https://github.com/momokaP/MODA/assets/144106144/627d0c52-d804-4d3e-9609-0db00e9bc3cd
+        
         guitar
-
-        <audio controls>
-               <source src="./audio/guitar2.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
+   
+        https://github.com/momokaP/MODA/assets/144106144/4e199eb4-70b7-46f3-bade-b33e68a1d267
+   
         other
-
-        <audio controls>
-               <source src="./audio/other2.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
+   
+        https://github.com/momokaP/MODA/assets/144106144/cd271093-71ae-4169-be54-273c625f2b4f
 
         piano
-
-        <audio controls>
-               <source src="./audio/piano2.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-
+   
+        https://github.com/momokaP/MODA/assets/144106144/fe15d5ed-2dd1-4c1f-a5c6-c593583f51fd
+        
         vocals
 
-        <audio controls>
-               <source src="./audio/vocals2.mp3" type="audio/mpeg">
-               대체텍스트
-        </audio>
-   
-       
-        
+        https://github.com/momokaP/MODA/assets/144106144/9f5df94c-3b9a-4b93-aa3d-2a546368e471
+     
 
 ### 응용
 
