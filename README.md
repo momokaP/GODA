@@ -351,25 +351,25 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
        
 
-       음원을 분리하면 htdemucs_6s라는 폴더가 생성되고 
+        음원을 분리하면 htdemucs_6s라는 폴더가 생성되고 
 
-       그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
+        그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
 
-       그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
+        그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
 
        
 
-       여기서 예제로 'YEAH', 'SE_01_03_신나는 펑키 아웃트로' 를 사용합니다
+        여기서 예제로 'YEAH', 'SE_01_03_신나는 펑키 아웃트로' 를 사용합니다
 
-       YEAH / 기증저작물-자유이용 / 저작자명 : 김재영
+        YEAH / 기증저작물-자유이용 / 저작자명 : 김재영
 
-       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020)
+        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020)
 
-       SE_01_03_신나는 펑키 아웃트로 /  CC BY 라이선스
+        SE_01_03_신나는 펑키 아웃트로 /  CC BY 라이선스
 
-       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
+        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
 
-       https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
+        https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
 
     3.  결과를 들어봅시다
 
