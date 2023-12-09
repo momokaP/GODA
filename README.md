@@ -253,7 +253,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
      표시된 음(노트)을 클릭하면 자동으로 Time, Note가 입력됩니다
 
-     <video  src="./video/지우기.mp4"  controls> 대체텍스트 </video>
+     https://github.com/momokaP/MODA/assets/144106144/2965ceda-510e-4f66-aea7-79a72b9f50e9
 
      
 
@@ -263,24 +263,21 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
      Volume을 0이 아닌 값으로 하고 Modify! 버튼을 누르면 음(노트)이 변경, 추가 됩니다
 
-     <video  src="./video/수정하기.mp4"  controls> 대체텍스트 </video>
+     https://github.com/momokaP/MODA/assets/144106144/c181db56-17e7-48ae-a49f-76492b934f33
 
-     
 
   3. 결과 듣기
 
-     <video  src="./video/편집결과.mp4"  controls> 대체텍스트 </video>
+     https://github.com/momokaP/MODA/assets/144106144/ee182e3e-5a66-4a6f-9587-9108795e0570
 
-     
 
   4. 저장하기
 
      Convert 버튼을 누르고 저장할 폴더와 저장할 파일명를 입력한뒤 저장 버튼을 누릅니다
 
-     <video  src="./video/저장하기.mp4"  controls> 대체텍스트 </video>
+     https://github.com/momokaP/MODA/assets/144106144/56d1af0b-11c6-4671-ba42-48a40adc9366
 
      
-
 * 피아노
 
   Piano 버튼을 누르면 피아노 건반이 나옵니다
@@ -289,9 +286,9 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
   MID/MIDI파일을 수정 하면서 이게 어떤 음(노트)인지 듣고 싶을 때 쓰면 유용할겁니다
 
-  <video  src="./video/피아노.mp4"  controls> 대체텍스트 </video>
+  https://github.com/momokaP/MODA/assets/144106144/36d5a443-a124-4550-aea9-35df734d56bc
 
-  
+
 
 ### 음원분리와 mid로 변환으로 음악파일의 음원을 분리하고 mid 파일로 변환하기
 
