@@ -372,10 +372,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
         https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
 
     3.  결과를 들어봅시다
-
-       
-
-        'SE_01_03_신나는 펑키 아웃트로'
+    4.  'SE_01_03_신나는 펑키 아웃트로'
 
         bass
 
@@ -464,6 +461,9 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
                <source src="./audio/vocals2.mp3" type="audio/mpeg">
                대체텍스트
         </audio>
+   
+       
+        
 
 ### 응용
 
