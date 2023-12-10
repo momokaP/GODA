@@ -366,9 +366,9 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355408&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355408&menuNo=200020)
 
-       <video  src="./video/변환.mp4"  controls> 대체텍스트 </video>
+       https://github.com/momokaP/MODA/assets/144106144/20366c6f-32fb-4eaf-a824-1209e5f54700
 
-       
+
 
     3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
 
