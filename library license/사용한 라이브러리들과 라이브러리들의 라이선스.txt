@@ -1,0 +1,11 @@
+사용한 라이브러리들과 라이브러리들의 라이선스
+
+sys, threading (Python 표준 라이브러리) -> PSF 라이선스
+
+numpy -> BSD 라이선스
+
+PyQt5 -> GPL 라이선스
+
+basic-pitch -> Apache 2.0 라이선스
+
+demucs, pretty_midi, sounddevice -> MIT 라이선스
