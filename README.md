@@ -74,8 +74,9 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 ##### 2 실행파일의 바이러스를 의심해서 라이브러리 설치하고 midi_editor.py다운 받아서 실행하기
 
-* midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
-
+* python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
+  (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다) (제 개발 환경은 3.11.2 버전입니다)
+  midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 * 라이브러리들 설치하기 ( sys, threading은 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
 
@@ -94,6 +95,11 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
   ```
   pip install numpy
   ```
+
+  (파이썬 버전이 다른 경우 ModuleNotFoundError: No module named 'pkg_resources'라는 오류가 뜨는데)
+  (이때에는 pip install setuptools 를 해줍니다 pretty_midi의 종속성 문제인듯 합니다)
+
+  명령 프롬프트로 라이브러리들을 설치 한 후 midi_editor_v1.py을 클릭해서 실행하거나 명령 프롬프트에서 실행
 
   
 
@@ -128,7 +134,9 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
 ##### 1 라이브러리 설치하고 extract_convert.py다운 받아서 실행하기
 
-* extract_convert.py 다운 받기
+* python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
+  (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다) (제 개발 환경은 3.11.2 버전입니다)
+  extract_convert.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 * 라이브러리들 설치하기 ( sys는 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
 
