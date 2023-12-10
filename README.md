@@ -54,6 +54,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 ##### 1 실행파일 다운로드 받기 : 오른쪽 Releases에서 다운로드 받을 수 있습니다
 
 * Releases에서 midi_editor.zip 다운 받고 압축 풀기
+  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 * 압축 푼 파일을 실행
 
@@ -73,9 +74,8 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 ##### 2 실행파일의 바이러스를 의심해서 라이브러리 설치하고 midi_editor.py다운 받아서 실행하기
 
-* midi_editor.py 다운 받기
+* midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
-  
 
 * 라이브러리들 설치하기 ( sys, threading은 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
 
@@ -123,6 +123,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
  라이브러리를 설치하고 extract_convert.py을 다운 받아서 실행해주시기 바랍니다
 
+ [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 
 ##### 1 라이브러리 설치하고 extract_convert.py다운 받아서 실행하기
