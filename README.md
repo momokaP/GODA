@@ -53,7 +53,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 ##### 1 실행파일 다운로드 받기 : 오른쪽 Releases에서 다운로드 받을 수 있습니다
 
-* Releases에서 midi_editor.zip 다운 받고 압축 풀기
+* Releases에서 midi_editor_v1.zip 다운 받고 압축 풀기
   [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 * 압축 푼 파일을 실행
