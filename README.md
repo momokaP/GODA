@@ -136,6 +136,11 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
   (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다) (제 개발 환경은 3.11.2 버전입니다)
+  
+  demucs, basic-pitch 라이브러리가 python에서 잘 설치되지 않을 수 있습니다
+  그때에는 anaconda를 설치하고 anaconda pormpt로 설치해보십시오 (제 개발환경은 anaconda Python 3.11.5입니다) [https://www.anaconda.com/download](https://www.anaconda.com/download)
+  
+  
   extract_convert.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 * 라이브러리들 설치하기 ( sys는 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
@@ -149,7 +154,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
   ```
 
   ```
-  pip install basic_pitch
+  pip install basic-pitch
   ```
 
   설치가 꽤 오래 걸릴 겁니다
