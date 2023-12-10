@@ -43,7 +43,7 @@
 
 
 
-#### MID/MIDI 파일 편집기 설치
+# 실행 방법1 MID/MIDI 파일 편집기 설치
 
 이 프로그램은 sys, PyQt5, numpy, threading, [pretty_midi](https://github.com/craffel/pretty-midi), [sounddevice](https://python-sounddevice.readthedocs.io/en/0.4.6/)라이브러리를 사용합니다
 
@@ -51,7 +51,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 
 
-##### 1 실행파일 다운로드 받기 : 오른쪽 Releases에서 다운로드 받을 수 있습니다
+### 1 실행파일 다운로드 받기 : 오른쪽 Releases에서 다운로드 받을 수 있습니다
 
 * Releases에서 midi_editor_v1.zip 다운 받고 압축 풀기
   [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
@@ -72,7 +72,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
   
   
 
-##### 2 실행파일의 바이러스를 의심해서 라이브러리 설치하고 midi_editor.py다운 받아서 실행하기
+### 2 실행파일의 바이러스를 의심해서 라이브러리 설치하고 midi_editor.py다운 받아서 실행하기
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
   (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다) (제 개발 환경은 3.11.2 버전입니다)
@@ -119,7 +119,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 
 
-#### 음원분리와 mid로 변환 설치
+# 실행 방법2 음원분리와 mid로 변환 설치
 
 이 프로그램은 sys, PyQt5, demucs, basic_pitch 라이브러리를 사용합니다
 
@@ -132,7 +132,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 
-##### 1 라이브러리 설치하고 extract_convert.py다운 받아서 실행하기
+### 1 라이브러리 설치하고 extract_convert.py다운 받아서 실행하기
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
   (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다) (제 개발 환경은 3.11.2 버전입니다)
@@ -179,7 +179,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
 # 상세 기능
 
-### MID/MIDI 파일 편집기로 MID파일 편집하기
+# 상세 기능1 MID/MIDI 파일 편집기로 MID파일 편집하기
 
 
 
@@ -304,7 +304,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
 
 
-### 음원분리와 mid로 변환으로 음악파일의 음원을 분리하고 mid 파일로 변환하기
+# 상세 기능2 음원분리와 mid로 변환으로 음악파일의 음원을 분리하고 mid 파일로 변환하기
 
   * mid/midi 파일로 변환하기
 
@@ -391,7 +391,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
         https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
 
     4.  결과를 들어봅시다
-        ##### SE_01_03_신나는 펑키 아웃트로
+        ### SE_01_03_신나는 펑키 아웃트로
 
         bass
         
@@ -417,7 +417,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
    
         https://github.com/momokaP/MODA/assets/144106144/2d8f58e4-d885-4ee4-8754-52305d6fb5fa
 
-        ##### YEAH
+        ### YEAH
 
         bass
    
@@ -444,7 +444,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
         https://github.com/momokaP/MODA/assets/144106144/9f5df94c-3b9a-4b93-aa3d-2a546368e471
      
 
-### 응용
+# 상세 기능3 응용
 
 이제 mid/midi파일을 편집할 수 있고, mid파일로 변환할 수 있고, 음원을 분리할 수 있습니다
 
