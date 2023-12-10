@@ -451,13 +451,25 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 # 라이센스
 
 사용한 라이브러리들
+
+##### PSF
 sys
+threading
+
+##### BSD 3
+numpy   
+
+##### GPL version	3
 PyQt5
-demucs   
+
+##### Apache License 2.0
 basic_pitch
+
+##### MIT License
+demucs   
 pretty_midi   
 sounddevice
-numpy   
-threading
+
+
    
 
