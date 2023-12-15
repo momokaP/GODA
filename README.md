@@ -15,7 +15,7 @@
 * midi파일을 편집합니다
 
 <p align="center">
-<img src="./img/주요기능1.png" alt="gimg" width="50%" />
+<img src="./img/주요기능1.png" alt="gimg" width="100%" />
 </p>
 
 * demucs 라이브러리를 이용해 음원을 분리 합니다 [demucs](https://github.com/facebookresearch/demucs) github
