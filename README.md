@@ -39,7 +39,7 @@
 모두 합치면 2~3 GB크기가 되기 때문에 두 부분으로 나눴습니다
 
 (윈도우 11에서 만든 것이므로 다른 os나 다른 버전에는 실행되지 않을 수 있습니다)
- 
+
 * MID/MIDI 파일 편집기
 * 음원분리와 mid로 변환
 
@@ -79,7 +79,6 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
   
- 
 * (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다)
   
 
@@ -91,7 +90,6 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
   midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
   
-
 * 라이브러리들 설치하기 ( sys, threading은 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
 
   ```
@@ -118,16 +116,16 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 
   (버전이 다른 경우 ModuleNotFoundError: No module named 'pkg_resources'라는 오류가 뜨는데)
-  
+
   (이때에는 pip install setuptools 를 해줍니다 pretty_midi의 종속성 문제인듯 합니다)
-  
+
 
   명령 프롬프트로 라이브러리들을 설치 한 후
-  
+
   midi_editor_v1.py을 클릭해서 실행하거나 명령 프롬프트에서 실행
 
-      
-           
+
+​           
   예시) 
 
   필요한 라이브러리가 없는 환경에서 실행하면 이렇게 나온다 ( 가상환경으로 예시를 들어봤다 )
@@ -149,7 +147,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 이 프로그램은 sys, PyQt5, demucs, basic_pitch 라이브러리를 사용합니다
 
 version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
- 
+
 이 프로그램은 실행 파일로 만들면 용량도 크고 ( 2.5GB 정도 ) 충돌도 많이 있기 때문에
 
  라이브러리를 설치하고 extract_convert.py을 다운 받아서 실행해주시기 바랍니다
@@ -160,7 +158,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 ### 1 라이브러리 설치하고 extract_convert.py다운 받아서 실행하기
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
-       
+  
 * (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다)
 
   (제 개발 환경은 3.11.2 버전입니다)
@@ -231,7 +229,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
 MID/MIDI 파일 듣거나 다운받는 사이트  ->  [https://bitmidi.com/](https://bitmidi.com/)
 
-               
+​               
 
 MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
@@ -240,7 +238,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 파일 링크 : [https://bitmidi.com/wii-channels-mii-channel-mid](https://bitmidi.com/wii-channels-mii-channel-mid)
 
 
-               
+​               
 * MID/MIDI파일 시각화
 
   1. Load and Visualize MIDI 버튼 누르기
@@ -248,7 +246,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
      <p align="center">
      <img src="./img/me1.png" alt="gimg" width="50%" />
      </p>
- 
+
   2.  파일 선택 후 열기 버튼 누르기
 
      <p align="center">
@@ -260,7 +258,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
      <p align="center">
      <img src="./img/me3.png" alt="gimg" width="50%" />
      </p>
-                          
+     
      이제 MID/MIDI 파일을 시각화한 결과를 볼 수 있습니다
 
      노란색으로 표시된 부분은 음(노트)이 위치한 곳이고 
@@ -294,13 +292,13 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
   
   ( 가로 창 크기조절을 하면 수직선이 느려집니다 )
   
-                     
+  ​                   
 
 
 * MID/MIDI 파일 편집, 저장
 
   
-             
+  ​           
   1. 음(노트) 지우기
 
      Modify 버튼을 누르고 Start Time과 End Time, start Note와 end Note 입력한 뒤
@@ -312,7 +310,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
      https://github.com/momokaP/MODA/assets/144106144/2965ceda-510e-4f66-aea7-79a72b9f50e9
 
      
-                       
+     
   2. 음(노트) 수정하기
 
      Modify 버튼을 누르고 Start Time과 End Time, start Note와 end Note 입력한 뒤
@@ -326,14 +324,12 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
      https://github.com/momokaP/MODA/assets/144106144/ee182e3e-5a66-4a6f-9587-9108795e0570
 
-                  
   4. 저장하기
-
+  
      Convert 버튼을 누르고 저장할 폴더와 저장할 파일명를 입력한뒤 저장 버튼을 누릅니다
-
+  
      https://github.com/momokaP/MODA/assets/144106144/56d1af0b-11c6-4671-ba42-48a40adc9366
-
-                           
+  
 * 피아노
 
   Piano 버튼을 누르면 피아노 건반이 나옵니다
@@ -344,13 +340,13 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
   https://github.com/momokaP/MODA/assets/144106144/36d5a443-a124-4550-aea9-35df734d56bc
 
-               
+  ​             
 
 # 상세 기능2 음원분리와 mid로 변환으로 음악파일의 음원을 분리하고 mid 파일로 변환하기
 
   * mid/midi 파일로 변환하기
 
-                     
+    ​                 
 
     mid/midi파일로 변환하는데 사용하는 라이브러리인 basic-pitch는 
 
@@ -360,16 +356,16 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
     
     콘솔 창에 basic-pitch가 제공하는 음원 분리 진행 상황이 표시됩니다
     
-
     
-                    
+    
+    
     1. ' mp3 파일을 midi파일로 변환 ' 탭을 누릅니다
 
        <p align="center">
        <img src="./img/변환.png" alt="gimg" width="50%" />
        </p>
        
-                     
+       
     2. midi로 변환할 파일과 파일을 저장할 폴더를 선택 한뒤 midi로 변환 버튼을 누릅니다
 
        여기서 예제로 'SE_07_16_아코디언 시골길 밝은 효과음' 을 사용합니다
@@ -381,23 +377,24 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
        https://github.com/momokaP/MODA/assets/144106144/20366c6f-32fb-4eaf-a824-1209e5f54700
 
 
-                      
+​                      
     3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
-
+    
        나름 음을 잘 나타내지만 완벽하게 mid/midi 파일로 변환하진 못합니다 
-
+    
        위의 예시를 봐도 길게 연주되어야 하는 음이 여러번 나눠져서 연주됩니다
-
+    
        따라서 MID/MIDI 파일 편집기로 자연스럽게 편집 하는 예시를 보여드리겠습니다
-
+    
        https://github.com/momokaP/MODA/assets/144106144/94e1552d-4a6b-4e1c-8dde-05393cfc5ccc
 
 
        수정된 결과 들어보기 
-
+    
        https://github.com/momokaP/MODA/assets/144106144/267bc73f-fdbe-4cad-8087-78edd62d578f
 
-                       
+
+​                       
   * 음원분리하기
 
     1.  음원 분리 탭을 누릅니다
@@ -405,96 +402,97 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
        <p align="center">
        <img src="./img/me13.png" alt="gimg" width="50%" />
        </p>
-                     
+       
     2.  음원 분리할 파일과 음원 분리할 파일을 저장할 폴더를 선택하고 음원분리 버튼을 누릅니다
                       
-       
+    
 
         음원을 분리하면 htdemucs_6s라는 폴더가 생성되고 
-
-        그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
-
-        그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
-    
-        음원 분리는 시간이 오래걸립니다 콘솔 창에 demucs가 제공하는 음원 분리 진행 상황이 표시됩니다
         
-                                 
-
+        그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
+        
+        그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
+        
+        음원 분리는 시간이 오래걸립니다 콘솔 창에 demucs가 제공하는 음원 분리 진행 상황이 표시됩니다
+    
+    
+    ​                             
+    
         여기서 예제로 'YEAH', 'SE_01_03_신나는 펑키 아웃트로' 를 사용합니다
-
+        
         YEAH / 기증저작물-자유이용 / 저작자명 : 김재영
-
+        
         출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020)
                                   
         SE_01_03_신나는 펑키 아웃트로 /  CC BY 라이선스
-
+        
         출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
-
+        
         https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
-                                 
+    
     4.  결과를 들어봅시다
         ### SE_01_03_신나는 펑키 아웃트로
-
+    
         bass
         
         https://github.com/momokaP/MODA/assets/144106144/25430136-f28d-49cd-8c31-c347ef15b2fd
-
-        drums
-   
+    
+       drums
+       
         https://github.com/momokaP/MODA/assets/144106144/0ba48bfc-8741-4294-95c2-255f59660830
         
-        guitar
-   
+       guitar
+       
         https://github.com/momokaP/MODA/assets/144106144/6bafe92e-ba58-48be-9c6f-a170475f2e12
-
-        other
-   
-        https://github.com/momokaP/MODA/assets/144106144/ca3e8ff8-af45-42d8-9b97-004da9349cb7
-   
-        piano
-   
+    
+       other
+       
+       https://github.com/momokaP/MODA/assets/144106144/ca3e8ff8-af45-42d8-9b97-004da9349cb7
+       
+       piano
+       
         https://github.com/momokaP/MODA/assets/144106144/ab6a45bb-8458-49e1-aacd-809524d356d2
-
-        vocals
-   
+    
+       vocals
+       
         https://github.com/momokaP/MODA/assets/144106144/2d8f58e4-d885-4ee4-8754-52305d6fb5fa
-
+    
         ### YEAH
-
-        bass
-   
-        https://github.com/momokaP/MODA/assets/144106144/1df4d65d-a558-4fb2-b199-2749e7655bfc
-   
-        drums
-   
+    
+       bass
+       
+       https://github.com/momokaP/MODA/assets/144106144/1df4d65d-a558-4fb2-b199-2749e7655bfc
+       
+       drums
+       
         https://github.com/momokaP/MODA/assets/144106144/627d0c52-d804-4d3e-9609-0db00e9bc3cd
         
-        guitar
-   
-        https://github.com/momokaP/MODA/assets/144106144/4e199eb4-70b7-46f3-bade-b33e68a1d267
-   
-        other
-   
+       guitar
+       
+       https://github.com/momokaP/MODA/assets/144106144/4e199eb4-70b7-46f3-bade-b33e68a1d267
+       
+       other
+       
         https://github.com/momokaP/MODA/assets/144106144/cd271093-71ae-4169-be54-273c625f2b4f
-
-        piano
-   
+    
+       piano
+       
         https://github.com/momokaP/MODA/assets/144106144/79246e9a-da98-4918-b461-360ed03d9650
-
+    
         vocals
-
+    
         https://github.com/momokaP/MODA/assets/144106144/9f5df94c-3b9a-4b93-aa3d-2a546368e471
-     
-                   
+    
+        ​           
 # 상세 기능3 응용
-                      
+
 이제 mid/midi파일을 편집할 수 있고, mid파일로 변환할 수 있고, 음원을 분리할 수 있습니다
 
 그러면  'SE_01_03_신나는 펑키 아웃트로'의 음원을 분리해서 나온 
 
 guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 
-                           
+​                           
 
 1.  'SE_01_03_신나는 펑키 아웃트로' guitar를 mid/midi로 변환합니다
 
@@ -513,11 +511,48 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 
 * 볼륨 시각화
 
+  <p align="center">
+    <img src="./img/볼륨 시각화.png" alt="gimg" width="50%" />
+    </p>
+
+   
+
+  <p align="center">
+    <img src="./img/볼륨색깔.png" alt="gimg" width="50%" />
+    </p>
+
+   볼륨 0~127을 위의 색깔로 시각화 했습니다
+
+  
+
 * 음(노트) 클릭시 볼륨 표시
 
 * musicxml 변환
 
-                             
+  <p align="center">
+    <img src="./img/musicxml변환.png" alt="gimg" width="50%" />
+    </p>
+
+  변환한 musicxml을 볼 수 있는 사이트들
+
+  [https://www.soundslice.com/musicxml-viewer/](https://www.soundslice.com/musicxml-viewer/) choose file에서 파일 선택 후 보기
+
+  [https://www.verovio.org/musicxml.html](https://www.verovio.org/musicxml.html) Try it with your file에서 파일 선택 후 보기
+
+  ​            
+
+  예)
+
+   상세 기능3 응용에서 'SE_01_03_신나는 펑키 아웃트로' guitar의 mid을 이용한 예시입니다
+
+  <p align="center">
+    <img src="./img/악보보기.png" alt="gimg" width="50%" />
+    </p>
+
+   
+
+  
+
 # 라이센스
 
 GPL-3.0 license
