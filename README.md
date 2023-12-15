@@ -367,7 +367,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
     
     
     
-    1. ' mp3 파일을 midi파일로 변환 ' 탭을 누릅니다
+    1. mp3 파일을 midi파일로 변환 탭을 누릅니다
 
        <p align="center">
        <img src="./img/변환.png" alt="gimg" width="50%" />
