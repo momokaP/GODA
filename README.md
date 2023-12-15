@@ -79,6 +79,8 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
   
+  
+  
 * (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다)
   
 
@@ -87,8 +89,9 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
   (3.11.5 버전을 추천합니다 [https://www.python.org/downloads/release/python-3115/](https://www.python.org/downloads/release/python-3115/))
   
-
   midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
+  
+  
   
 * 라이브러리들 설치하기 ( sys, threading은 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
 
@@ -115,17 +118,18 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
   (23.12.15 수정 musicxml변환을 위해 pip install music21 추가)
 
 
-  (버전이 다른 경우 ModuleNotFoundError: No module named 'pkg_resources'라는 오류가 뜨는데)
+​       (버전이 다른 경우 ModuleNotFoundError: No module named 'pkg_resources'라는 오류가 뜨는데)
 
-  (이때에는 pip install setuptools 를 해줍니다 pretty_midi의 종속성 문제인듯 합니다)
-
-
-  명령 프롬프트로 라이브러리들을 설치 한 후
-
-  midi_editor_v1.py을 클릭해서 실행하거나 명령 프롬프트에서 실행
+​       (이때에는 pip install setuptools 를 해줍니다 pretty_midi의 종속성 문제인듯 합니다)
 
 
-​           
+​       명령 프롬프트로 라이브러리들을 설치 한 후
+
+​       midi_editor_v1.py을 클릭해서 실행하거나 명령 프롬프트에서 실행
+
+​     
+
+
   예시) 
 
   필요한 라이브러리가 없는 환경에서 실행하면 이렇게 나온다 ( 가상환경으로 예시를 들어봤다 )
@@ -155,9 +159,13 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 
+
+
 ### 1 라이브러리 설치하고 extract_convert.py다운 받아서 실행하기
 
 * python이 설치된 상태라고 가정합니다 python이 설치되지 않았다면 [https://www.python.org/](https://www.python.org/)에서 설치 가능합니다
+  
+  
   
 * (cmd에서 원활히 쓸 수 있도록 설치 할 때 'Add python.exe to PATH' 를 체크해줍니다)
 
@@ -378,8 +386,8 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
 
 ​                      
-    3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
-    
+​    3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
+​    
        나름 음을 잘 나타내지만 완벽하게 mid/midi 파일로 변환하진 못합니다 
     
        위의 예시를 봐도 길게 연주되어야 하는 음이 여러번 나눠져서 연주됩니다
@@ -440,7 +448,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
        drums
        
         https://github.com/momokaP/MODA/assets/144106144/0ba48bfc-8741-4294-95c2-255f59660830
-        
+       
        guitar
        
         https://github.com/momokaP/MODA/assets/144106144/6bafe92e-ba58-48be-9c6f-a170475f2e12
@@ -466,7 +474,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
        drums
        
         https://github.com/momokaP/MODA/assets/144106144/627d0c52-d804-4d3e-9609-0db00e9bc3cd
-        
+       
        guitar
        
        https://github.com/momokaP/MODA/assets/144106144/4e199eb4-70b7-46f3-bade-b33e68a1d267
@@ -515,7 +523,7 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
     <img src="./img/볼륨 시각화.png" alt="gimg" width="50%" />
     </p>
 
-   
+  
 
   <p align="center">
     <img src="./img/볼륨색깔.png" alt="gimg" width="50%" />
@@ -526,6 +534,12 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
   
 
 * 음(노트) 클릭시 볼륨 표시
+
+  <p align="center">
+    <img src="./img/노트누르면볼륨도.gif" alt="gimg" width="50%" />
+    </p>
+
+  
 
 * musicxml 변환
 
@@ -548,9 +562,9 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
   <p align="center">
     <img src="./img/악보보기.png" alt="gimg" width="50%" />
     </p>
-
-   
-
+  
+  
+  
   
 
 # 라이센스
