@@ -332,11 +332,15 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
 
      https://github.com/momokaP/MODA/assets/144106144/ee182e3e-5a66-4a6f-9587-9108795e0570
 
+     
+  
   4. 저장하기
   
      Convert 버튼을 누르고 저장할 폴더와 저장할 파일명를 입력한뒤 저장 버튼을 누릅니다
   
      https://github.com/momokaP/MODA/assets/144106144/56d1af0b-11c6-4671-ba42-48a40adc9366
+     
+     
   
 * 피아노
 
@@ -373,7 +377,7 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
        <img src="./img/변환.png" alt="gimg" width="50%" />
        </p>
        
-       
+    
     2. midi로 변환할 파일과 파일을 저장할 폴더를 선택 한뒤 midi로 변환 버튼을 누릅니다
 
        여기서 예제로 'SE_07_16_아코디언 시골길 밝은 효과음' 을 사용합니다
@@ -383,60 +387,67 @@ MID/MIDI 파일 편집기로 위 사이트에서  다운로드 한
        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355408&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355408&menuNo=200020)
 
        https://github.com/momokaP/MODA/assets/144106144/20366c6f-32fb-4eaf-a824-1209e5f54700
-
-
-​                      
-​    3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
-​    
-       나름 음을 잘 나타내지만 완벽하게 mid/midi 파일로 변환하진 못합니다 
+    
+       
+    
+    3. basic-pitch로 음악파일을 mid/midi 파일로 변환하면 
+    
+       나름 음을 잘 나타내지만 완벽하게 mid/midi 파일로 변환하진 못합니다     
     
        위의 예시를 봐도 길게 연주되어야 하는 음이 여러번 나눠져서 연주됩니다
     
        따라서 MID/MIDI 파일 편집기로 자연스럽게 편집 하는 예시를 보여드리겠습니다
     
        https://github.com/momokaP/MODA/assets/144106144/94e1552d-4a6b-4e1c-8dde-05393cfc5ccc
-
-
+    
+       
+    
        수정된 결과 들어보기 
     
        https://github.com/momokaP/MODA/assets/144106144/267bc73f-fdbe-4cad-8087-78edd62d578f
+    
+       
 
-
-​                       
   * 음원분리하기
 
-    1.  음원 분리 탭을 누릅니다
+    1. 음원 분리 탭을 누릅니다
 
        <p align="center">
        <img src="./img/me13.png" alt="gimg" width="50%" />
        </p>
-       
-    2.  음원 분리할 파일과 음원 분리할 파일을 저장할 폴더를 선택하고 음원분리 버튼을 누릅니다
-                      
     
+    2. 음원 분리할 파일과 음원 분리할 파일을 저장할 폴더를 선택하고 음원분리 버튼을 누릅니다
+    
+       음원을 분리하면 htdemucs_6s라는 폴더가 생성되고
 
-        음원을 분리하면 htdemucs_6s라는 폴더가 생성되고 
+       그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
+    
+       그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
+    
+       음원 분리는 시간이 오래걸립니다 콘솔 창에 demucs가 제공하는 음원 분리 진행 상황이 표시됩니다
+    
+       
+    
+       여기서 예제로 'YEAH', 'SE_01_03_신나는 펑키 아웃트로' 를 사용합니다
+    
         
-        그 폴더 안에 음원 분리할 파일이름의 폴더가 생성되고
+    
+       YEAH / 기증저작물-자유이용 / 저작자명 : 김재영
+    
+       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020)
+    
         
-        그 폴더 안에 bass, drums, guitar, other, piano, vocals가 mp3형식으로 저장됩니다
+    
+       SE_01_03_신나는 펑키 아웃트로 /  CC BY 라이선스
+    
+       출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
+    
         
-        음원 분리는 시간이 오래걸립니다 콘솔 창에 demucs가 제공하는 음원 분리 진행 상황이 표시됩니다
+    
+       https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
     
     
     ​                             
-    
-        여기서 예제로 'YEAH', 'SE_01_03_신나는 펑키 아웃트로' 를 사용합니다
-        
-        YEAH / 기증저작물-자유이용 / 저작자명 : 김재영
-        
-        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13073772&menuNo=200020)
-                                  
-        SE_01_03_신나는 펑키 아웃트로 /  CC BY 라이선스
-        
-        출처 : [https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020](https://gongu.copyright.or.kr/gongu/wrt/wrt/view.do?wrtSn=13355275&menuNo=200020)
-        
-        https://github.com/momokaP/MODA/assets/144106144/d855f4ee-316a-47eb-9a4b-f04e1e2a1d14
     
     4.  결과를 들어봅시다
         ### SE_01_03_신나는 펑키 아웃트로
@@ -538,9 +549,8 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
   <p align="center">
     <img src="./img/노트누르면볼륨도.gif" alt="gimg" width="50%" />
     </p>
-
   
-
+  
 * musicxml로 변환하여 악보로 볼 수 있게 하기
 
   <p align="center">
