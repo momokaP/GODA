@@ -549,9 +549,9 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 
   변환한 musicxml을 볼 수 있는 사이트들
 
-  [https://www.soundslice.com/musicxml-viewer/](https://www.soundslice.com/musicxml-viewer/) choose file에서 파일 선택 후 보기
+  [https://www.soundslice.com/musicxml-viewer/](https://www.soundslice.com/musicxml-viewer/) 'choose file'에서 파일 선택 후 보기
 
-  [https://www.verovio.org/musicxml.html](https://www.verovio.org/musicxml.html) Try it with your file에서 파일 선택 후 보기
+  [https://www.verovio.org/musicxml.html](https://www.verovio.org/musicxml.html) 밑의 'Try it with your file'에서 파일 선택 후 보기
 
   ​            
 
