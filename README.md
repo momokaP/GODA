@@ -107,6 +107,13 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
   pip install numpy
   ```
 
+  ```
+  pip install music21
+  ```
+
+  (23.12.15 수정 musicxml변환을 위해 pip install music21 추가)
+
+
   (버전이 다른 경우 ModuleNotFoundError: No module named 'pkg_resources'라는 오류가 뜨는데)
   
   (이때에는 pip install setuptools 를 해줍니다 pretty_midi의 종속성 문제인듯 합니다)
