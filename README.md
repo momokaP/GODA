@@ -1,3 +1,5 @@
+(github가 제공하는 동영상 로딩에 딜레이가 있고, 재생이 안되는 문제가 있습니다. 재생이 안된다면 새로고침하고 다시 재생하면 됩니다 )
+
 # Midi audiO file eDit Application
 
 * MODA는 간단한 midi파일 편집 기능을 제공합니다. 또한,
