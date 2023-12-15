@@ -56,8 +56,8 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
 ### 1 실행파일 다운로드 받기 : 오른쪽 Releases에서 다운로드 받을 수 있습니다
 
-* Releases에서 midi_editor_v1.zip 다운 받고 압축 풀기
-  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
+* Releases에서 midi_editor_v2.zip 다운 받고 압축 풀기
+  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
 
 * 압축 푼 파일을 실행
 
@@ -89,7 +89,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
   (3.11.5 버전을 추천합니다 [https://www.python.org/downloads/release/python-3115/](https://www.python.org/downloads/release/python-3115/))
   
-  midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
+  midi_editor_v2.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
   
   
   
@@ -156,7 +156,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
  라이브러리를 설치하고 extract_convert.py을 다운 받아서 실행해주시기 바랍니다
 
- [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
+ [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
 
 
 
@@ -180,7 +180,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
   (제 개발환경은 anaconda Python 3.11.5입니다) [https://www.anaconda.com/download](https://www.anaconda.com/download)
   
   
-  extract_convert.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
+  extract_convert.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
               
 
 * 라이브러리들 설치하기 ( sys는 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
@@ -541,13 +541,13 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 
   
 
-* musicxml 변환
+* musicxml로 변환하여 악보로 볼 수 있게 하기
 
   <p align="center">
     <img src="./img/musicxml변환.png" alt="gimg" width="50%" />
     </p>
 
-  변환한 musicxml을 볼 수 있는 사이트들
+  변환한 musicxml을 악보로 볼 수 있는 사이트들
 
   [https://www.soundslice.com/musicxml-viewer/](https://www.soundslice.com/musicxml-viewer/) 'choose file'에서 파일 선택 후 보기
 
@@ -557,7 +557,7 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
 
   예)
 
-   상세 기능3 응용에서 'SE_01_03_신나는 펑키 아웃트로' guitar의 mid을 이용한 예시입니다
+   상세 기능3 응용에서 'SE_01_03_신나는 펑키 아웃트로' guitar의 mid을 이용하여 악보로 만든 예시입니다
 
   <p align="center">
     <img src="./img/악보보기.png" alt="gimg" width="50%" />
