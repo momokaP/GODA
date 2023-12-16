@@ -47,17 +47,17 @@
 
 # 실행 방법1 MID/MIDI 파일 편집기 설치
 
-이 프로그램은 os, sys, PyQt5, numpy, threading, [pretty_midi](https://github.com/craffel/pretty-midi), [sounddevice](https://python-sounddevice.readthedocs.io/en/0.4.6/), [music21](https://github.com/cuthbertLab/music21)라이브러리를 사용합니다
+이 프로그램은 os, sys, PyQt5, numpy, threading, [pretty_midi](https://github.com/craffel/pretty-midi), [sounddevice](https://python-sounddevice.readthedocs.io/en/0.4.6/)라이브러리를 사용합니다
 
-version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10), sounddevice (0.4.6) music21 (9.1.0)
+version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10), sounddevice (0.4.6) 
 
-(23.12.15 수정 musicxml변환을 위해 music21 추가)
+
       
 
 ### 1 실행파일 다운로드 받기 : 오른쪽 Releases에서 다운로드 받을 수 있습니다
 
-* Releases에서 midi_editor_v2.zip 다운 받고 압축 풀기
-  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
+* Releases에서 midi_editor_v1.zip 다운 받고 압축 풀기
+  [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 * 압축 푼 파일을 실행
 
@@ -89,7 +89,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
 
   (3.11.5 버전을 추천합니다 [https://www.python.org/downloads/release/python-3115/](https://www.python.org/downloads/release/python-3115/))
   
-  midi_editor_v2.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
+  midi_editor_v1.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
   
   
   
@@ -111,11 +111,6 @@ version : Python (3.11.2), PyQt5 (5.15.10), numpy (1.26.2), pretty-midi (0.2.10)
   pip install numpy
   ```
 
-  ```
-  pip install music21
-  ```
-
-  (23.12.15 수정 musicxml변환을 위해 pip install music21 추가)
 
 
 ​       (버전이 다른 경우 ModuleNotFoundError: No module named 'pkg_resources'라는 오류가 뜨는데)
@@ -156,7 +151,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
 
  라이브러리를 설치하고 extract_convert.py을 다운 받아서 실행해주시기 바랍니다
 
- [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
+ [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
 
 
 
@@ -180,7 +175,7 @@ version : Python (3.11.2), PyQt5 (5.15.10), demucs (4.0.1), basic_pitch (0.2.6)
   (제 개발환경은 anaconda Python 3.11.5입니다) [https://www.anaconda.com/download](https://www.anaconda.com/download)
   
   
-  extract_convert.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
+  extract_convert.py 다운 받기 [release](https://github.com/momokaP/MODA/releases/tag/v0.0.1)
               
 
 * 라이브러리들 설치하기 ( sys는 표준 라이브러리, 만약 없다면 pip install 해서 설치하기)
@@ -526,7 +521,20 @@ guitar의 음이 어떻게 이루어져 있는지 알아봅시다
    https://github.com/momokaP/MODA/assets/144106144/3a13e7d9-1084-4c88-8f47-5a43d5a1771a
 
 # 23 12 15 추가 기능
-볼륨 시각화와, 음(노트) 클릭시 볼륨 표시, musicxml 변환 기능을 추가 했습니다
+midi파일 편집기에 볼륨 시각화와, 음(노트) 클릭시 볼륨 표시, musicxml 변환 기능을 추가 했습니다
+
+[https://github.com/momokaP/MODA/releases/tag/v0.0.2](https://github.com/momokaP/MODA/releases/tag/v0.0.2)
+
+실행파일의 바이러스를 의심해서 라이브러리 설치하고 midi_editor.py다운 받아서 실행하려면
+
+추가로 [music21](https://github.com/cuthbertLab/music21)라이브러리를 설치해야합니다 music21 (9.1.0)
+```
+pip install music21
+```
+  
+
+
+
 
 * 볼륨 시각화
 
